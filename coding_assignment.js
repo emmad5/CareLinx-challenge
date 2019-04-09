@@ -15,7 +15,10 @@ function amountToCoins(amt, set) {
 }
 
 //Assignment 2
+
+// helper function to extract text from node
 function getText(node) {
+    // Breadth first search method to extract text
    let queue = [node];
    let text = '';
     while (queue.length > 0) {
@@ -32,6 +35,8 @@ function getText(node) {
     }
     return text;
 }
+
+// function to compare texts of two nodes
 function compareText(node1, node2) {
-    return getText(node1) == getText(node2);
+    return getText(node1) === getText(node2);
 }
