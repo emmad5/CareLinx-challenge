@@ -1,0 +1,49 @@
+body {
+  background-color:#8E44AD;
+  color: white;
+  text-align: center;
+  text-transform: uppercase; 
+}
+img {
+    width: 100%;
+}
+
+.top {
+    background: white;
+    padding: 20px;
+}
+.row {
+    margin: 0;
+}
+
+.header {
+    background-color: #3498DB;
+    padding: 20px 170px 20px 170px;
+    margin: 10px 0 10px 0;
+    font-size: 18px;
+    border-bottom: 8px #2980B9 solid; 
+}
+.date {
+    background-color: #2C3E4F; 
+    border: 4px black solid; 
+    padding-top: 10px;
+    font-weight: 500;
+}
+.title {
+    background-color: #C0392C;
+    border: 4px black solid;
+    line-height: 70px;
+    font-weight: 500;
+}
+.buy-tix {
+    background-color: #E74C3D;
+    line-height: 70px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.lineup {
+    color: black;
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: 500;
+}
