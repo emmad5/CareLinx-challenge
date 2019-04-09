@@ -17,21 +17,48 @@
             text-transform: uppercase; 
         }
         div {
-            border: 1px black solid;
+            /* border: 1px black solid; */
         }
         img {
             width: 100%;
         }
+       
         .top {
             background: white;
             padding: 20px;
         }
+        .row {
+            margin: 0;
+        }
+       
+        .header {
+            background-color: #3498DB;
+            padding: 20px 170px 20px 170px;
+            margin: 10px 0 10px 0;
+            font-size: 18px;
+            border-bottom: 8px #2980B9 solid; 
+        }
         .date {
-            background-color: #2C3E4F;  
+            background-color: #2C3E4F; 
+            border: 4px black solid; 
         }
         .title {
            background-color: #C0392C;
+           border: 4px black solid;
            line-height: 50px;
+           
+        }
+        .buy-tix {
+            background-color: #E74C3D;
+            line-height: 70px;
+            font-size: 20px;
+            font-weight: 500;
+        }
+        .lineup {
+            color: black;
+            font-size: 30px;
+            line-height: 50px;
+            font-weight: 500;
         }
     </style>
 </head>
@@ -40,10 +67,10 @@
     <div class="container">
         <div class='top'>
         <div class="row">
-            <div class="col-4 date">June 3-5 2016 </br> Pier 9, San Juan Bay </div>
-            <div class="col-8 title">Old San Juan Music Festival</div>
+            <div class="col date">June 3-5 2016 </br> Pier 9, San Juan Bay </div>
+            <div class="col title">Old San Juan Music Festival</div>
         </div>
-        <div class="row">
+        <div class="row header">
             <div class="col">
                 Lineup
             </div>
@@ -60,10 +87,10 @@
         <div>
             <img src="festival.png" alt="festival image">
         </div>
-        <div>
+        <div class='buy-tix'>
             Buy Tickets!
         </div>
-        <div>
+        <div class="lineup">
             Lineup
         </div>
         </div>
