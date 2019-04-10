@@ -50,14 +50,7 @@ img {
     font-weight: 500;
 }
 
-.lineups {
-  /* width: 100%; */
-  height: 100%;
-  /* border: 1px black solid; */
-  background-color:
-  /* padding: 10px 10px 50px 10px; */
-  font-size: 14px;
-}
+
 button {
   background-color: #F1C410;
   border-bottom: 3px #F39C12 solid;
@@ -83,10 +76,12 @@ button {
 .lineup1-col {
   background-color:  #2ECC70;
   padding: 20px 20px 40px 20px;
+
 }
 .lineup2-col {
   background-color:  #3498DB;
   padding: 20px 20px 40px 20px;
+
 }
 .lineup3-col {
   background-color:  #E84C3D;
