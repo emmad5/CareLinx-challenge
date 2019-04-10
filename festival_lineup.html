@@ -7,6 +7,15 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("button").click(function () {
+                console.log(this)
+               $(`.lineup${this.id}`).toggle();
+            });
+        });
+    </script>
     <title>Old San Juan Music Festival</title>
 </head>
 
@@ -42,16 +51,32 @@
         </div>
         </div>
         <div class="row">
-            <div class="col">
+            <button class="col" id='1'>
                 Friday, June 3rd
-            </div>
-            <div class="col">
+            </button>
+            
+            <button class="col" id='2'>
                 Saturday, June 4th
-            </div>
-            <div class="col">
+            </button>
+            <button class="col" id='3'>
                 Sunday, June 5th
-            </div>
+            </button>
+            
         </div>
+        <div class="row">
+            <div class="col lineup1">
+                1
+            </div>
+        
+            <div class="col lineup2">
+                2
+            </div>
+            <div class="col lineup3">
+                3
+            </div>
+        
+        </div>
+        
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

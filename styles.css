@@ -40,10 +40,15 @@ img {
     line-height: 70px;
     font-size: 20px;
     font-weight: 500;
+    border-bottom:  4px #BD392D solid;
 }
 .lineup {
     color: black;
     font-size: 30px;
     line-height: 50px;
     font-weight: 500;
+}
+
+.banner-message {
+ display: none;
 }
